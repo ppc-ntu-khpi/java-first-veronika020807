@@ -1,4 +1,2 @@
-cd src
-javac *.java
-java ShirtTest
-java QuotationTest
+javac src/Shirt.java src/ShirtTest.java src/Quotation.java src/QuotationTest.java
+java -cp src QuotationTest

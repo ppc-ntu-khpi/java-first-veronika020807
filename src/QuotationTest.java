@@ -1,6 +1,7 @@
 public class QuotationTest {
-    public static void main(String args[]) {
-        Quotation myQuotation = new Quotation();
-        myQuotation.display();
+    public static void main(String[] args) {
+        Shirt myShirt = new Shirt();
+        Quotation quotation = new Quotation();
+        quotation.displayQuotation(myShirt);
     }
 }
